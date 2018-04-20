@@ -1,0 +1,25 @@
+https://water.usbr.gov/api/web/app.php/api/series?sites=hdmlc&parameters=Day.Inst.ReservoirElevation.feet&start=2017-01-01&end=2017-04-28
+
+https://water.usbr.gov/api/web/app.php/api/series?sites=lakepowell&parameters=Day.Avg.ReservoirRelease.cfs&start=1850-01-01&end=2018-04-19&format=json
+
+https://water.usbr.gov/api/web/app.php/api/series?sites=ridgway&parameters=Day.Inst.ReservoirStorage.af&start=2018-01-01&end=2018-04-19&format=json
+
+https://water.usbr.gov/api/web/app.php/api/series?sites=bbr&parameters=Day.Avg.ReservoirInflow.cfs,Day.Avg.SnowWaterEquivalent.inches&start=2018-01-01&end=2018-04-19&format=json
+
+2 sites w/diff parameters:
+https://water.usbr.gov/api/web/app.php/api/series?sites=abiquiureservoir,adawplco&parameters=Day.Avg.CanalFlow.cfs,Day.Avg.CanalStage.feet,Day.Inst.ReservoirElevation.feet&start=2018-01-01&end=2018-04-19&format=json
+
+2 sites w/same parameter:
+https://water.usbr.gov/api/web/app.php/api/series?sites=abiquiureservoir,alcr&parameters=Day.Inst.ReservoirElevation.feet&start=2018-01-01&end=2018-04-19&format=json
+
+Need
+
+- a way to get list of sites back from RISE
+- a way to get list of parameters back from RISE
+- specify all available dates, or specific dates
+    - how to return if dates do not exist
+- meta data returned
+- possibly add download data action
+- multiparameter specification
+
+
